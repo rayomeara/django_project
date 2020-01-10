@@ -25,7 +25,7 @@ SECRET_KEY = 'y*i6(9#2@m8k0+x+a!pb_w$wt1xe=1obs@460^c^bxj!1i)v^v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-daf99988-18fb-4be0-9b2f-f8c2a389a3bd.ws-eu01.gitpod.io']
+ALLOWED_HOSTS = ['8000-a423edf0-6998-4a88-87f2-5cc47f2ffbfd.ws-eu01.gitpod.io']
 
 
 # Application definition

@@ -1,0 +1,4 @@
+before using enter:
+
+    pip3 install django==1.11.24
+
