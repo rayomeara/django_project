@@ -26,7 +26,8 @@ SECRET_KEY = 'y*i6(9#2@m8k0+x+a!pb_w$wt1xe=1obs@460^c^bxj!1i)v^v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-a423edf0-6998-4a88-87f2-5cc47f2ffbfd.ws-eu01.gitpod.io']
+ALLOWED_HOSTS = ['8000-a423edf0-6998-4a88-87f2-5cc47f2ffbfd.ws-eu01.gitpod.io',
+                    'rom-django-todo.herokuapp.com']
 
 
 # Application definition
