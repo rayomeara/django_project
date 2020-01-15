@@ -27,7 +27,7 @@ SECRET_KEY = 'y*i6(9#2@m8k0+x+a!pb_w$wt1xe=1obs@460^c^bxj!1i)v^v'
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-a423edf0-6998-4a88-87f2-5cc47f2ffbfd.ws-eu01.gitpod.io',
-                    'rom-django-todo.herokuapp.com']
+                    os.environ.get('HOSTNAME')]
 
 
 # Application definition
@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
     }
 } """
 
-DATABASES = {'default': dj_database_url.parse("postgres://dbsndwqwzkbcin:d12381bb166954bb3c92f4dcefacd9b1f11027c418d9615f247b1cdd26bccad8@ec2-46-137-173-221.eu-west-1.compute.amazonaws.com:5432/de50n73jc5qnfi")}
+DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
